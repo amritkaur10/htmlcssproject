@@ -1,0 +1,572 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container1 {
+    float: left;
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.container1 img {
+    width: 40%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+nav div i {
+    margin-top: 20px;
+    font-size: 18px;
+    /* background: red; */
+}
+
+nav div i:hover {
+    cursor: pointer;
+    color: rgb(156, 155, 155);
+}
+
+nav span {
+    padding: 10px;
+    margin: 5px;
+}
+
+header h4 {
+    padding: 7px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    /* background: red; */
+}
+
+.container1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 15px;
+    line-height: 10px;
+    margin: 5px;
+    color: black;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.container2 {
+    float: right;
+    width: 75%;
+    background: rgb(243, 243, 243);
+    padding: 20px;
+    position: relative;
+}
+
+nav button {
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    border: none;
+    margin-bottom: 18px;
+}
+
+nav button:hover {
+    background: gainsboro;
+    color: black;
+}
+
+nav button:visited {
+    /* background: black; */
+    color: white;
+}
+
+nav {
+    margin-bottom: 8px;
+}
+
+nav a:hover {
+    background-color: lightgrey;
+    /* width: 100%; */
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-weight: 100;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 .card {
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.box2 .card {
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 35vh;
+    margin-bottom: 0px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 35vh;
+}
+
+.box1 .card .text h3 {
+    background: white;
+    padding: 10px;
+}
+
+.box2 .card .text h3 {
+    background: white;
+    padding: 10px;
+}
+
+.box1 .card .text p {
+    background: white;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.box2 .card .text p {
+    background: white;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page a {
+    padding: 8px 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.page a:hover {
+    color: white;
+    background: black;
+}
+
+.images {
+    display: flex;
+}
+
+main .images img {
+    width: 50%;
+    padding: 8px;
+}
+
+main .page {
+    display: flex;
+    justify-content: center;
+}
+
+.para h3 {
+    padding: 8px;
+    font-weight: 400;
+}
+
+.section3 .para p {
+    /* font-size: 20px; */
+    padding-bottom: 40px;
+    word-spacing: 3px;
+    margin: 10px;
+}
+
+.section3 .bar1 {
+    width: 95%;
+    background: rgb(71, 71, 71);
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+.section3 .bar {
+    width: 100%;
+    background: rgb(128, 127, 127);
+    /* padding: 10px 20px; */
+}
+
+.bars p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bars button {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.bars h3 {
+    font-weight: 300;
+}
+
+.section3 .bar2 {
+    width: 85%;
+    background: rgb(71, 71, 71);
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+.section3 .bar3 {
+    width: 80%;
+    background: rgb(71, 71, 71);
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+}
+
+.section3 button {
+    padding: 15px 25px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: rgb(71, 71, 71);
+    border-style: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.charge {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.card h2 {
+    font-weight: 100;
+}
+
+.price .card {
+    text-align: center;
+    width: 350px;
+    /* padding: 100px; */
+    /* height: 50vh; */
+}
+
+.price .card li {
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: rgb(94, 89, 89);
+    margin-top: -2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card h4 {
+    background-color: grey;
+    padding: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.card button {
+    background-color: rgb(38, 152, 156);
+    border: none;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.bottom {
+    background: rgb(151, 148, 148);
+    /* height: 60vh; */
+    padding: 20px 20px;
+}
+
+.icon i {
+    font-size: 40px;
+    display: block;
+}
+
+.bottom div {
+    padding: 10px;
+    /* background: rgb(94, 92, 92); */
+    /* background-color: red; */
+    /* height: 70px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.bottom div div:nth-child(1) {
+    background-color: rgb(94, 89, 89);
+    width: 100%;
+    display: inline-block;
+    /* height: 60px; */
+    text-align: center;
+}
+
+.bottom div div:nth-child(2) {
+    background-color: teal;
+    width: 75%;
+    display: inline-block;
+    /* padding: 10px; */
+    /* height: 10px; */
+    text-align: center;
+}
+
+.bottom div div:nth-child(3) {
+    background-color: rgb(94, 89, 89);
+    width: 100%;
+    display: inline-block;
+    /* height: 60px; */
+    text-align: center;
+}
+
+.bottom button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.bottom form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bottom h3 {
+    font-weight: 100
+}
+
+footer .end {
+    display: flex;
+    background: rgb(97, 97, 97);
+    color: white;
+    padding: 30px;
+}
+
+.end li img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.end div {
+    width: 400px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.end ul {
+    list-style: none;
+    display: block;
+    padding: 0 5px;
+}
+
+.tag span {
+    margin-right: 1px;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    padding: 2px;
+    line-height: 30px;
+    /* margin-bottom: 10px; */
+}
+.end ul li {
+    display: flex;
+    /* top: 10px; */
+    padding: 11px;
+}
+
+.tag span:nth-child(1) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(2) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(3) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(4) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(5) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(6) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(7) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(8) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(9) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(10) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(11) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(12) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(13) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.tag span:nth-child(14) {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.last a {
+    color: white;
+    text-decoration: none;
+}
+
+.last {
+    width: 100%;
+    height: 15vh;
+    border-bottom: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end h3 {
+    font-weight: 100;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.end a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .container1 {
+        display: none;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .box1 {
+        flex-wrap: wrap;
+    }
+
+    .box2 {
+        flex-wrap: wrap;
+    }
+
+    .price {
+        display: block;
+    }
+
+    .price .card {
+        width: 100%;
+    }
+
+    footer .end {
+        display: block;
+    }
+
+    .end div {
+        width: auto;
+    }
+
+    .bottom div {
+        display: block;
+        /* height: 90px; */
+        /* overflow: hidden; */
+        text-align: center;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .bottom div div:nth-child(2){
+        width: 100%;
+    }
+
+    .bottom {
+        margin-left: 0px;
+    }
+
+    .images {
+        display: block;
+    }
+
+    main .images img {
+        width: 100%;
+    }
+
+    .bottom {
+        padding: 25px 10px;
+    }
+}
